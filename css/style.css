@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#conteneur{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 300px;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 5px 5px;
+}
+#afficheur{
+    width: 240px;
+    padding: 10%;
+    background-color: grey;
+    margin-bottom: 4%;
+    text-align: center;
+}
+#clavier{
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    grid-template-columns: repeat(4, 50px);
+    gap: 5%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
+#clavier button:nth-child(5){
+    width: 240px;
+}
+button{
+    background-color: blue;
+    border-color: blue;
+    border-radius: 5px 5px;
+}
